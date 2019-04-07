@@ -1,6 +1,7 @@
 # coding:utf-8
-import Util.CardInitializer as CardInitializer
+import Util.CardModule as CardModule
 
-ci = CardInitializer.CardInitializer()
+playingCards = CardModule.PlayingCards()
 
-ci.createPlayingCards()
+# トランプカードJSONの作成
+playingCards.create()
